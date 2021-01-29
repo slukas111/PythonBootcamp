@@ -1,0 +1,8 @@
+dictionary are unordered type of collection in python. dictionary = items with key/value pair
+
+dictionary are declared with curly brackets my_dict = {}
+
+'key': 'value' to access the items
+
+
+

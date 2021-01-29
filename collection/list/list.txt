@@ -1,0 +1,17 @@
+collections: list  
+
+collections in python are container that store collections 
+of data in total, there are four collections
+
+-list
+-dict
+-set 
+-tuple 
+
+list is a collection of data, all the values (elements) inside of square brackets
+-list any number of values
+-list can contain mixed types of values (integar, float, string, etc)
+
+creation of a list: my_list =[]
+a list of integars: my_list = [1,2,3,4]
+a mixed list: my_list = [1, "hello", 2.3]
