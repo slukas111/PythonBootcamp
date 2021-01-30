@@ -10,12 +10,13 @@ class Car:
         current_price = self.car_data_list[1]
         model = self.car_data_list[2]
 
-        if year_release >= 2010 or year_release < 2020:
-            if current_price > 6000 or current_price < 17000:
-                insurance = current_price * 0.05
-            else:
-                insurance = current_price * 0.07
-            print(f"here is the calculated insurance: {insurance}")
+        # if year_release >= 2010 and year_release <= 2020:
+        #     if current_price >= 6000 and current_price <= 17000:
+        if 2020 >= year_release >= 2010 and 6000 <= current_price <= 17000:
+            insurance = current_price * 0.05
+        else:
+            insurance = current_price * 0.07
+        print(f"here is the calculated insurance: {round(insurance, 2)}")
 
     def doors_closed(self):
         doors_status = self.car_data_list[-1]
