@@ -51,7 +51,7 @@ class Building:
 
 # instances
 lease_contract_1 = Building("Summer", 4, 135)
-# lease_contract_1.show_apartment_details()
+lease_contract_1.show_apartment_details()
 rent_price_1 = lease_contract_1.rent_calculation()
 lease_contract_1.monthly_maintenance_pay(rent_price_1)
 print("\n")
