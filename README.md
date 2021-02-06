@@ -1,9 +1,9 @@
 # PythonBootcamp
 
-<h4> Implementation </h4>
+### Implementation
 Started and completed udemy python 2021 Bootcamp. 
 
-<h4> Steps Involved </h4>
+### Steps Involved 
 - foundations data
 - forloop basic and advanced
 - while loop basic and advanced
@@ -11,7 +11,7 @@ Started and completed udemy python 2021 Bootcamp.
 - OOP
 - advanced OOP and instances
 
-<h4> Future Steps </h4>
+### Future Steps 
 - refactor 
 - complete Kenzie Katas Practice 
 - add new folder for interview tech practice 
